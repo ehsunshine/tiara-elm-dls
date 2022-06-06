@@ -9,11 +9,11 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material.Surface
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import xyz.ehsun.tiaraelm.ui.theme.MyTheme
 import xyz.ehsun.tiaraelmcompose.components.ButtonStyle
 import xyz.ehsun.tiaraelmcompose.components.ButtonType
 import xyz.ehsun.tiaraelmcompose.components.TiaraElmButton
 import xyz.ehsun.tiaraelmcompose.foundation.TiaraElmTheme
+import xyz.ehsun.tiaraelmcompose.theme.MyTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
