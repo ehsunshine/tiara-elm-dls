@@ -1,4 +1,4 @@
-package xyz.ehsun.tiaraelm.ui.theme
+package xyz.ehsun.tiaraelmcompose.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.runtime.Composable

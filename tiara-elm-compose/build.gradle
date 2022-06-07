@@ -9,8 +9,6 @@ android {
     defaultConfig {
         minSdk 26
         targetSdk 32
-        versionCode 1
-        versionName "1.0"
 
     }
 
@@ -31,10 +29,16 @@ android {
 
 dependencies {
 
-    implementation "androidx.compose.ui:ui:$compose_version"
-    implementation "androidx.compose.ui:ui-tooling-preview:$compose_version"
+    api "androidx.compose.ui:ui:$compose_version"
+    api "androidx.compose.ui:ui-tooling-preview:$compose_version"
+    api "androidx.compose.material:material:$compose_version"
+    api "androidx.compose.foundation:foundation:$compose_version"
+    api "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_runtime_ktx_version"
+    api "androidx.activity:activity-compose:$activity_compose_version"
     implementation "androidx.compose.material:material:$compose_version"
 
-    debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
-    debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_version"
+    debugApi "androidx.compose.ui:ui-tooling:$compose_version"
+    debugApi "androidx.compose.ui:ui-test-manifest:$compose_version"
+    debugApi "androidx.compose.ui:ui-tooling:$compose_version"
+    debugApi "androidx.compose.ui:ui-test-manifest:$compose_version"
 }
